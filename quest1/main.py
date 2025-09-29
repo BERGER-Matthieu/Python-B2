@@ -2,11 +2,11 @@ import hello_world as hw
 import numerical_operations as no
 import concat_string as cs
 import punishment as p
+import shopping as s
 
 #hello_world.py
 print(hw.say_hello_world())
 print()
-
 
 #numerical_operations.py
 print(no.add(1, 2))
@@ -28,3 +28,9 @@ print()
 print(no.modulo(5, 2))
 print(no.divide(5, 2))
 print(no.integer_division(5, 2))
+print()
+
+#shopping.py
+print(s.remember_the_milk(['tomatoes', 'pastas', 'salt']))
+print(s.remember_the_milk([]))
+print()
