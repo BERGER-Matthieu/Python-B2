@@ -17,5 +17,17 @@ def power(a:float, b:float):
 
     return res
 
-print(power(2, 5))
-print(square(3))
+def modulo(a:float, b:float):
+    if a == 0 or b == 0:
+        return 0
+    return a % b
+
+def divide(a:float, b:float):
+    if a == 0 or b == 0:
+        return 0
+    return a / b
+
+def integer_division(a:float, b:float):
+    if a == 0 or b == 0:
+        return 0
+    return a // b
