@@ -3,6 +3,7 @@ import numerical_operations as no
 import concat_string as cs
 import punishment as p
 import shopping as s
+import custom_calendar as cc
 
 #hello_world.py
 print(hw.say_hello_world())
@@ -34,3 +35,11 @@ print()
 print(s.remember_the_milk(['tomatoes', 'pastas', 'salt']))
 print(s.remember_the_milk([]))
 print()
+
+#custom_calendar.py
+print(cc.day_from_number(1))
+print(cc.day_from_number(7))
+print(cc.day_from_number(12))
+print(cc.day_to_number("monday"))
+print(cc.day_to_number("thursday"))
+print(cc.day_to_number("caca"))

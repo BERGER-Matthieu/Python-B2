@@ -2,7 +2,7 @@ def remember_the_milk(shopping_list):
     shopping_list = clean_list(shopping_list)
     shopping_list_len = len(shopping_list)
 
-    if len(shopping_list)==0:
+    if len(shopping_list) == 0:
         return shopping_list
 
     milk = False
@@ -19,8 +19,8 @@ def remember_the_milk(shopping_list):
 
 def clean_list(shopping_list):
     new_shopping_list = []
-    
+
     for i in range(len(shopping_list)):
         new_shopping_list.append(f"{i+1}/ {shopping_list[i].strip().capitalize()}")
-    
+
     return new_shopping_list
